@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 200%;
+    text-decoration: none;
+    color: #bac0bf;
+    padding: 10px;
+    width: 150px;
+}
+.header{
+    text-align: center;
+    background-color: #00c6ba;
+    padding: 20px;
+    color: #bac0bf;
+}
+.nav-menu {
+    background-color: #414747;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+.nav-menu-item {
+    display: inline-flex;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: #bac0bf;
+    padding: 10px;
+    width: 150px;
+}
+
+.nav-menu-item:hover {
+    background-color: #00c6ba;
+}
+
+

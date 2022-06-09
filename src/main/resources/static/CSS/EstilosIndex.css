@@ -1,0 +1,108 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #b3bcbc;
+    color: black;
+    font-family: Verdana;
+}
+
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #414747;
+    color: black;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+#menu a:visited {
+    color: #999999;
+}
+#menu a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+#barraLateral {
+    position: absolute;
+    top: 12.4%;
+    left: 0%;
+    height: 88%;
+    width: 15%;
+    background-color: #999999;
+    color: white;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    height: 88%;
+    width: 85%;
+    background-color: #eff0f0;
+    color: black;
+    font-family: Arial;
+    overflow: auto;
+    text-align: center;
+    padding: 25px;
+}
+#contenidoPagSeg {
+    position: absolute;
+    top: 12.5%;
+    left: 15%;
+    height: 88%;
+    width: 70%;
+    background-color: #eff0f0;
+    color: black;
+    font-family: Arial;
+    overflow: auto;
+    text-align: center;
+}
+
+.contenido-pagina {
+    display: flex;
+    margin: 60px;
+}
+
+.articulos {
+    width: 95%;
+}
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.contenido-barra{
+    margin: 35px;
+}
+
+.contenido-formulario {
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #414747;
+    color: white;
+}
+
+.header-formulario {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.articulo-formulario {
+    margin-top: 10px;
+}
